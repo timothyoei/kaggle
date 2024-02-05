@@ -1,0 +1,15 @@
+version: "3"
+services:
+  kaggle:
+    build:
+      context: .
+    volumes:
+      - .:/playground
+    networks:
+      - kaggle
+    ports:
+      - "8200:8200"
+    tty: true
+networks:
+  kaggle:
+    driver: bridge

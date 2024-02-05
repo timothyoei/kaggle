@@ -1,0 +1,5 @@
+**/.ipynb_checkpoints
+**/data
+**/wandb
+**/kaggle.json
+**/kernel-metadata.json
